@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 //General functions
-/*int sum(int a,int b)
+int sum(int a,int b)
 {
     int c=a+b;
     return c;
@@ -108,8 +108,8 @@ int main()
    reversearr();
    prime_of_any_digit();
    return 0;
-}*/
-/*void digitcount()
+}
+void digitcount()
 {
     int n;
     scanf("%d",&n);
@@ -143,8 +143,9 @@ void convertbinary()
 int main()
 {
     digitcount();
-}*/
-/*int sum(int a[],int n)
+    convertbinary();
+}
+int sum(int a[],int n)
 {
     int sum=0;
     for(int i=0; i<n ; i++)
@@ -159,8 +160,8 @@ int main()
    int result =sum(x,5);
    printf("%d",result);
 
-}*/
-/*void maxminarr(int a[],int n)
+}
+void maxminarr(int a[],int n)
 {
     int min=a[0],max=a[0];
     for(int i=0;i<n;i++)
@@ -181,8 +182,8 @@ void main()
     for(int i=0;i<x;i++)
     scanf("%d",&y[i]);
     maxminarr(y,x);
-}*/
-/*int lcm(int a, int b)
+}
+int lcm(int a, int b)
 {
     int l,lcmm;
     for(int i=1;i<=a;i++)
@@ -198,8 +199,8 @@ int main()
     printf("enter two numbers:");                                 //lcm
     scanf("%d %d",&a,&b);
     lcm(a,b);
-}*/
-/*int fibonacci(int n)
+}
+int fibonacci(int n)
 {
     int c=1,a=0,b=1;
     printf("0 1 ");
@@ -216,8 +217,8 @@ int main()
     int n;
     scanf("%d",&n);
     fibonacci(n);
-}*/
-/*int fact(int a)
+}
+int fact(int a)
 {
     int b=1;
     for(int i=a;i>0;i--)                                        //fibonacci
@@ -232,8 +233,8 @@ int main()
     printf("enter number:");
     scanf("%d",&n);
     printf("%d",fact(n));
-}*/
-/*int sum_of_digit(int a)
+}
+int sum_of_digit(int a)
 {
     int b=0,c=0;                                                    //sum of digit
     while(a!=0)
@@ -250,8 +251,8 @@ int main()
     printf("enter number:");
     scanf("%d",&n);
     printf("%d",sum_of_digit(n));
-}*/
-/*void palindrome(int n)
+}
+void palindrome(int n)
 {
    int b=0,a,k;
    k=n;
@@ -272,8 +273,8 @@ void main()
     printf("enter the number:");
     scanf("%d",&n);
     palindrome(n);
-}*/
-/*void arr(int a[],int n)
+}
+void arr(int a[],int n)
 {
     int *p;
     p=a;
@@ -290,8 +291,8 @@ void main()
     scanf("%d",&n);
     int a[n];
     arr(a,n);
-}*/
-/*int perfectnumber(int a)
+}
+int perfectnumber(int a)
 {
     int s=0,k;
     
@@ -320,8 +321,8 @@ int main()
         if(perfectnumber(i))
         printf("%d\n",i);
     }
-}*/
-/*int armstrong(int a)
+}
+int armstrong(int a)
 {
     int l,b=0,k,c;
     c=a;
@@ -347,8 +348,8 @@ int main()
        if(armstrong(i))
        printf("%d\n",i);
     }
-}*/
-/*int strong(int a)
+}
+int strong(int a)
 {
     int s=0,k,fact,c;
     c=a;
@@ -379,8 +380,8 @@ int main()
         if(strong(i))
         printf("%d\n",i);
     }
-}*/
-/*int prime(int a)
+}
+int prime(int a)
 {
     int c=0;
     for(int i=1;i<=a;i++)
@@ -403,4 +404,4 @@ int main()
         if(prime(a))
         printf("%d\t",a);
     }
-}*/
+}
